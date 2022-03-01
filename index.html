@@ -19,7 +19,7 @@
                 <label for="lastname">Your Last Name</label><span class="required-field">*</span>
                 <input required type="text" id="lastname" name="lastname" minlength="2" maxlength="35">
                 <label for="age">Your Age</label><span class="required-field">*</span>
-                <input required type="number" id="age" name="age">
+                <input required type="number" name="age" id="age" min="21" max="99">
                 <h5>(Entrant must be 21 or older to enter contest.)</h5>
             </div>
             <fieldset>
@@ -89,7 +89,7 @@
                         <option value="WY">Wyoming</option>
                     </datalist>
                     <label for="zip">Your Zipcode</label>
-                    <input type="text" id="zip" name="zip">
+                    <input type="text" id="zip" name="zip" title="5-Digit US ZIP Code" pattern="[0-9]{5}">
                 </div>
             </fieldset>
 
