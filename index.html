@@ -97,7 +97,7 @@
                 <legend>Your Preferences</legend>
                 <h3>Choose your location</h3>
                 <div>
-                    <input type="radio" id="aruba" name="location" value="Aruba" checked> 
+                    <input type="radio" id="aruba" name="location" value="Aruba" checked>
                     <label for="aruba">Aruba</label>
                 </div>
                 <div>
@@ -134,7 +134,9 @@
                     <label for="drinks">All-inclusive Drinks Package</label>
                 </div>
             </fieldset>
-            
+            <label for="password">Enter a 6 character secret code. (Must verify code to redeem prize.)</label><span class="required-field">*</span>
+            <input required type="password" title="6 Alphanumeric Character Password" pattern="[0-9a-zA-Z]{6}">
+                <hr>
             <input type="submit" value="Enter the Contest!">
         </form>
     </main>
